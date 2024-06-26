@@ -3,6 +3,12 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 h1 {
@@ -14,4 +20,20 @@ h1 {
 
 #result .red {
   color: #e74c3c;
+}
+#countdown p {
+  color:red;
+}
+#countdown h2 {
+  color:#2ecc71;
+}
+
+#restart{
+  padding: 10px 20px;
+  border: none;
+  background-color: #4d93d8;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  border-radius: 6px;
 }
